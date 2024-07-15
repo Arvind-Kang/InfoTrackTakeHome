@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34701.34
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InfoTrackTakeHome.Server", "InfoTrackTakeHome.Server\InfoTrackTakeHome.Server.csproj", "{26D85DF4-CF84-4222-9662-DF6A1D827260}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "infotracktakehome.client", "infotracktakehome.client\infotracktakehome.client.esproj", "{649693DA-3E6C-4246-9567-58D8AD2F30A9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{26D85DF4-CF84-4222-9662-DF6A1D827260}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26D85DF4-CF84-4222-9662-DF6A1D827260}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26D85DF4-CF84-4222-9662-DF6A1D827260}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26D85DF4-CF84-4222-9662-DF6A1D827260}.Release|Any CPU.Build.0 = Release|Any CPU
+		{649693DA-3E6C-4246-9567-58D8AD2F30A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{649693DA-3E6C-4246-9567-58D8AD2F30A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{649693DA-3E6C-4246-9567-58D8AD2F30A9}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{649693DA-3E6C-4246-9567-58D8AD2F30A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{649693DA-3E6C-4246-9567-58D8AD2F30A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{649693DA-3E6C-4246-9567-58D8AD2F30A9}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E83F0A49-8DF6-4ED2-B702-548C366B0252}
+	EndGlobalSection
+EndGlobal

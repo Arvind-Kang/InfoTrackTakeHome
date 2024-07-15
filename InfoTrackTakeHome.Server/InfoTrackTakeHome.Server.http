@@ -1,0 +1,6 @@
+@InfoTrackTakeHome.Server_HostAddress = http://localhost:5255
+
+GET {{InfoTrackTakeHome.Server_HostAddress}}/searchengine/
+Accept: application/json
+
+###
