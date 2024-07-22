@@ -1,21 +1,12 @@
-﻿namespace InfoTrackTakeHome.Server.Services
-{
-    using InfoTrackTakeHome.Server.Contexts;
+namespace InfoTrackTakeHome.Server.Services
+
     using System.Net.Http;
     using System.Text.Json;
     using System.Text.RegularExpressions;
     using System.Threading.Tasks;
-    using System.Collections.Generic;
 
     public class ScrapingService
     {
-        private readonly HttpClient _httpClient;
-
-        public ScrapingService(HttpClient httpClient)
-        {
-            _httpClient = httpClient;
-        }
-
         public async Task<string> GetGoogleSearchResults(string searchPhrase, string url)
         {
             var httpClient = new HttpClient();
@@ -31,7 +22,7 @@
             return positions.Count > 0 ? string.Join(", ", positions) : "0";
         }
 
-        public List<int> ParseGoogleSearchResults(string htmlContent, string targetUrl)
+        private List<int> ParseGoogleSearchResults(string htmlContent, string targetUrl)
         {
             var positions = new List<int>();
             var pattern = @"<div class=""[a-zA-Z0-9]+ [a-zA-Z0-9]+""><a href=""([^""]+)""[^>]*>(.*?)<\/a><\/div>";
@@ -40,7 +31,7 @@
             {
                 var href = matches[i].Groups[1].Value;
                 if (href.Contains(targetUrl))
-                {           
+                {
                     positions.Add(i + 1);
                 }
             }

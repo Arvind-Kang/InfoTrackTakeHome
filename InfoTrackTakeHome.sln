@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InfoTrackTakeHome.Server", 
 EndProject
 Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "infotracktakehome.client", "infotracktakehome.client\infotracktakehome.client.esproj", "{649693DA-3E6C-4246-9567-58D8AD2F30A9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InfoTrackScraper", "InfoTrackScraper\InfoTrackScraper.csproj", "{4C7C0973-8BBB-4629-ADAF-946F659B08A4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InfoTrackTakeHome.ServerTests", "InfoTrackTakeHome.ServerTests\InfoTrackTakeHome.ServerTests.csproj", "{C4E56349-8832-4CC2-8237-DA2366679106}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,10 +25,10 @@ Global
 		{649693DA-3E6C-4246-9567-58D8AD2F30A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{649693DA-3E6C-4246-9567-58D8AD2F30A9}.Release|Any CPU.Build.0 = Release|Any CPU
 		{649693DA-3E6C-4246-9567-58D8AD2F30A9}.Release|Any CPU.Deploy.0 = Release|Any CPU
-		{4C7C0973-8BBB-4629-ADAF-946F659B08A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4C7C0973-8BBB-4629-ADAF-946F659B08A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4C7C0973-8BBB-4629-ADAF-946F659B08A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4C7C0973-8BBB-4629-ADAF-946F659B08A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4E56349-8832-4CC2-8237-DA2366679106}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4E56349-8832-4CC2-8237-DA2366679106}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4E56349-8832-4CC2-8237-DA2366679106}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4E56349-8832-4CC2-8237-DA2366679106}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
